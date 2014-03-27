@@ -1,0 +1,13 @@
+{application, erlln,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {modules, [erlln_app, erlln_sup, erlln_srv]},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { erlln_app, []}},
+  {env, []}
+ ]}.

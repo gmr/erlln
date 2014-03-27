@@ -1,0 +1,6 @@
+.DS_Store
+deps
+ebin
+dist
+.idea
+*.i*
