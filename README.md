@@ -40,11 +40,11 @@ Now in a psql session in another terminal, send your notifications:
     postgres=# NOTIFY erlln, 'Test payload';
     NOTIFY
 
-And you should see the following:
+And you should see the following in the terminal running the erlln application:
 
     Received NOTIFY on channel erlln: Test payload
 
-The application is listening for a payload of `stop` to shutdown:
+The application is listening for a payload of `stop` to shutdown. In the psql session:
 
     postgres=# NOTIFY erlln, 'stop';
     NOTIFY
