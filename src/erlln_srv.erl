@@ -6,8 +6,8 @@
 
 -define(host, "localhost").
 -define(port, 5432).
--define(dbname, "gavinr").
--define(user, "gavinr").
+-define(dbname, "postgres").
+-define(user, "postgres").
 
 -include_lib("deps/epgsql/include/pgsql.hrl").
 
